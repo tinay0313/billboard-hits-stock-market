@@ -6,4 +6,4 @@ The S&P 500 data is scraped from Yahoo Finance (sp500_1999_2020.csv).
 
 Processed Data:
 "billboardHot100_1999-2019.csv" is cleaned and preprocessed using "dataClean.py" to output "billboard_input1.csv".
-"sp500_1999_2000.csv" is rendered through "yLabel.py" to output "yLabel.csv".
+"sp500_1999_2000.csv" is rendered through "Label.py" to output "yLabel.csv".
