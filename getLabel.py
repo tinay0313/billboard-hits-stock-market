@@ -7,9 +7,7 @@ from datetime import datetime, timedelta, date
 def getSPIndex(time, df):
     temp = df[df.Date.dt.date >=time]
     temp = temp.sort_values(by=['Date'], ascending=True)
-    # print(temp.iloc[0].Close)
     return temp.iloc[0].Close
-
 
 
 df = pd.read_csv("billboard_input1.csv")
@@ -18,8 +16,6 @@ sp500 = "sp500_1999_2020.csv"
 DF_sp500 = pd.read_csv(sp500)
 
 DF_sp500['Date']= pd.to_datetime(DF_sp500['Date'])
-
-
 
 resultList = []
 
@@ -42,26 +38,3 @@ resultDF = pd.DataFrame(resultList, columns = ['Week', 'Label'])
 
 
 resultDF.to_csv("yLabel.csv", index=False)
-
-
-
-
-
-
-
-# currDate = datetime(1999,2,6).date()
-
-# getSPIndex(currDate, DF_sp500)
-
-
-
-
-
-
-
-
-
-
-
-
-
