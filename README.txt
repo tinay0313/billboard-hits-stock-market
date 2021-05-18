@@ -8,4 +8,4 @@ How to run:
 3. Run "getLabel.py" on outputs from 1 and 2 to obtain "yLabel.csv".
 4. Run "billboardLSTM.py" on "billboard_input1.csv" and "yLabel.csv" to generate outputs.
 
-The maximum accuracy achieved by using tanh or ReLu activation functions with different regularizers is around 60%.
+The maximum accuracy achieved by using tanh or ReLu activation functions with different regularizers is around 60%. Please see "2565_ML_Project.pdf" for complete project report.
