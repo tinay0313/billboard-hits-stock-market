@@ -1,0 +1,17 @@
+     time step reg l1 reg l2  dropout  neurons loss accuracy
+0            4   0.01    0.0      0.0       30  nan   0.6006
+1            4   0.01    0.0      0.0       50  nan   0.6006
+2            4   0.01    0.0      0.0       80  nan   0.6006
+3            4   0.01    0.0      0.0      100  nan   0.6006
+4            4   0.01    0.0      0.0      120  nan   0.6006
+..         ...    ...    ...      ...      ...  ...      ...
+295         12   0.01   0.01      0.6       30  nan   0.5933
+296         12   0.01   0.01      0.6       50  nan   0.6033
+297         12   0.01   0.01      0.6       80  nan   0.6033
+298         12   0.01   0.01      0.6      100  nan   0.6033
+299         12   0.01   0.01      0.6      120  nan   0.6033
+
+[300 rows x 7 columns]
+relu, kernel_regularizer
+    time step reg l1 reg l2  dropout  neurons loss accuracy
+70          6   0.01    0.0      0.4       30  nan   0.6111
